@@ -1,11 +1,17 @@
 .attribution {
 	font-size: 11px;
 	text-align: center;
+	color: #fff;
 }
 .attribution a {
-	color: hsl(228, 45%, 44%);
+	color: hsl(132, 86%, 75%);
 }
 body {
 	min-height: 100svh;
 	background: #242742;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
 }
