@@ -1,0 +1,23 @@
+.container {
+	display: flex;
+	flex-wrap: wrap-reverse;
+	row-gap: 2.5rem;
+	padding-bottom: 2.5rem;
+	background: #fff;
+	&__img {
+		flex: 1 1 100%;
+	}
+	&__info {
+		flex: 1 1 100%;
+		padding-inline: max(1.5rem, 6%);
+	}
+	&__title {
+		margin-bottom: 1.5rem;
+	}
+	&__text {
+		margin-bottom: 1.5rem;
+	}
+	&__list {
+		margin-bottom: 2.5rem;
+	}
+}
