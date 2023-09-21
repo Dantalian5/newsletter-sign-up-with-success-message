@@ -19,6 +19,9 @@
 	&::placeholder {
 		opacity: 0.5;
 	}
+	&__marked {
+		font-weight: 700;
+	}
 }
 .f-label {
 	font-size: 0.75rem;
@@ -59,6 +62,7 @@
 	}
 	&__input,
 	&__btn {
+		display: block;
 		width: 100%;
 		padding-block: 1rem;
 		padding-inline: 1.5rem;
@@ -72,8 +76,27 @@
 		background: #242742;
 	}
 }
+.m-success {
+	max-width: 31.5rem;
+	&__logo {
+		width: 4rem;
+		height: 4rem;
+		margin-block: 9.4rem 2.5rem;
+	}
+	&__btn {
+		margin-top: 16.5rem;
+	}
+}
 @media (min-width: 50rem) {
 	.f-heading {
 		font-size: 3.5rem;
+	}
+	.m-success {
+		&__logo {
+			margin-block: 2.5rem;
+		}
+		&__btn {
+			margin-block: 2.5rem;
+		}
 	}
 }
