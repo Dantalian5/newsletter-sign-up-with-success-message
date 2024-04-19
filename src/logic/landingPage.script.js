@@ -5,9 +5,9 @@ const form = document.getElementById("myForm");
 
 formBtn.addEventListener("click", (event) => {
   if (!formInput.validity.valid) {
-    form.classList.add("js-error");
+     form.classList.add("logic-error");
   } else {
-    form.classList.remove("js-error");
+    form.classList.remove("logic-error");
   }
 });
 
