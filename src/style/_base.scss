@@ -1,0 +1,24 @@
+.attribution {
+  font-size: 11px;
+  color: #fff;
+
+  margin: auto;
+  margin-block-end: 40px;
+}
+.attribution a {
+  color: hsl(132, 86%, 75%);
+}
+body {
+  min-height: 100svh;
+  background: #242742;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+main {
+  width: 100%;
+  margin-block-start: 64px;
+}

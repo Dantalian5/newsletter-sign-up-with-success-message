@@ -1,107 +1,119 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" dir="ltr">
-	<head>
-		<!-- Base configuration -->
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta
-			name="description"
-			content="Newsletter sign-up project from Frontendmentor.io"
-		/>
-		<!-- Title of the page -->
-		<title>
-			Frontend Mentor | Newsletter sign-up form with success message
-		</title>
-		<!-- Favicons setup https://realfavicongenerator.net -->
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="32x32"
-			href="assets/images/favicon-32x32.png"
-		/>
-		<!-- Stylesheet setup -->
-		<link rel="stylesheet" href="assets/style/style.scss" />
-	</head>
-	<body>
-		<main class="container">
-			<div class="container__info">
-				<h1 class="container__title f-heading">Stay updated!</h1>
-				<p class="container__text f-paragraph">
-					Join 60,000+ product managers receiving monthly updates on:
-				</p>
-				<ul class="container__list m-list">
-					<li class="m-list__item">
-						<img
-							class="m-list__icon"
-							src="assets/images/icon-list.svg"
-							alt="icon"
-						/>
-						<p class="m-list__text f-paragraph">
-							Product discovery and building what matters
-						</p>
-					</li>
-					<li class="m-list__item">
-						<img
-							class="m-list__icon"
-							src="assets/images/icon-list.svg"
-							alt="icon"
-						/>
-						<p class="m-list__text f-paragraph">
-							Measuring to ensure updates are a success
-						</p>
-					</li>
-					<li class="m-list__item">
-						<img
-							class="m-list__icon"
-							src="assets/images/icon-list.svg"
-							alt="icon"
-						/>
-						<p class="m-list__text f-paragraph">And much more!</p>
-					</li>
-				</ul>
-				<form id="myForm" class="container__form m-form" action="success.html">
-					<label class="m-form__label f-label" for="formEmail"
-						>Email address</label
-					>
-					<input
-						class="m-form__input f-paragraph"
-						type="email"
-						id="formEmail"
-						name="formEmail"
-						placeholder="email@company.com"
-						pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
-						title="Please, provide a valid email address"
-						required
-					/>
-					<button class="m-form__btn f-btn" id="formButton" type="submit">
-						Subscribe to monthly newsletter
-					</button>
-				</form>
-			</div>
-			<div class="container__img">
-				<picture>
-					<source
-						media="(min-width: 50rem)"
-						srcset="assets/images/illustration-sign-up-desktop.svg"
-					/>
-					<img
-						class="m-dashboard-image"
-						src="assets/images/illustration-sign-up-mobile.svg"
-						alt="dashboard illustration"
-					/>
-				</picture>
-			</div>
-		</main>
+  <head>
+    <!-- Base configuration -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Newsletter sign-up project from Frontendmentor.io"
+    />
+    <!-- Title of the page -->
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+    <!-- Favicons setup https://realfavicongenerator.net -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon-32x32.png"
+    />
+    <!-- Stylesheet setup -->
+    <link rel="stylesheet" href="style/style.scss" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="container__info">
+          <h1 class="sr-only">
+            Join 60,000+ product managers that receive relevant content for free
+            :)
+          </h1>
+          <h2 class="container__title f-heading">Stay updated!</h2>
+          <div>
+            <p class="container__text f-paragraph">
+              Join 60,000+ product managers receiving monthly updates on:
+            </p>
+            <ul class="container__list m-list">
+              <li class="m-list__item">
+                <img
+                  class="m-list__icon"
+                  src="assets/images/icon-list.svg"
+                  alt="icon"
+                />
+                <p class="m-list__text f-paragraph">
+                  Product discovery and building what matters
+                </p>
+              </li>
+              <li class="m-list__item">
+                <img
+                  class="m-list__icon"
+                  src="assets/images/icon-list.svg"
+                  alt="icon"
+                />
+                <p class="m-list__text f-paragraph">
+                  Measuring to ensure updates are a success
+                </p>
+              </li>
+              <li class="m-list__item">
+                <img
+                  class="m-list__icon"
+                  src="assets/images/icon-list.svg"
+                  alt="icon"
+                />
+                <p class="m-list__text f-paragraph">And much more!</p>
+              </li>
+            </ul>
+          </div>
+          <form
+            id="myForm"
+            class="container__form m-form"
+            action="success.html"
+          >
+            <label class="m-form__label f-label" for="formEmail"
+              >Email address</label
+            >
+            <input
+              class="m-form__input f-paragraph"
+              type="email"
+              id="formEmail"
+              name="formEmail"
+              placeholder="email@company.com"
+              pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+              title="Please, provide a valid email address"
+              required
+            />
+            <button class="m-form__btn f-btn" id="formButton" type="submit">
+              Subscribe to monthly newsletter
+            </button>
+          </form>
+        </div>
+        <div class="container__img">
+          <picture>
+            <source
+              media="(min-width: 50rem)"
+              srcset="assets/images/illustration-sign-up-desktop.svg"
+            />
+            <img
+              class="m-dashboard-image"
+              src="assets/images/illustration-sign-up-mobile.svg"
+              alt="dashboard illustration"
+            />
+          </picture>
+        </div>
+      </div>
+    </main>
 
-		<footer class="attribution">
-			Challenge by
-			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-				>Frontend Mentor</a
-			>. Coded by
-			<a href="https://marcosvalenzuela.netlify.app">Marcos Valenzuela</a>.
-		</footer>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://marcosvalenzuela.netlify.app">Marcos Valenzuela</a>.
+    </footer>
 
-		<!-- add javascript file -->
-		<script src="assets/js/script.js"></script>
-	</body>
+    <!-- add javascript file -->
+    <script src="logic/landingPage.script.js"></script>
+  </body>
 </html>

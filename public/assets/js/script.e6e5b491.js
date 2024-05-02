@@ -1,1 +1,0 @@
-const e=document.getElementById("formButton"),t=document.getElementById("formEmail"),d=document.getElementById("myForm");e.addEventListener("click",e=>{t.validity.valid?d.classList.remove("js-error"):d.classList.add("js-error")});
