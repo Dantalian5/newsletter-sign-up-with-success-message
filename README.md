@@ -11,6 +11,7 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
+- [Aknowledgements](#aknowledgements)
 
 ## Overview
 
@@ -50,3 +51,7 @@ Users should be able to:
 
 - Website - [Marcos Valenzuela](https://marcosvalenzuela.netlify.app)
 - Frontend Mentor - [@Dantalian5](https://www.frontendmentor.io/profile/Dantalian5)
+
+## Aknowledgements
+
+- [Bruno Moleta](https://github.com/brunomoleta)
